@@ -1,0 +1,93 @@
+# 2024 Masters Tournament: official round totals, final position and total.
+# Source: https://www.masters.com/pdf/2024_Final_Results.pdf
+# Columns: position|player|round 1|round 2|round 3|round 4|total
+# CUT players have no scores for rounds 3 and 4.
+1|Scottie Scheffler|66|72|71|68|277
+2|Ludvig Aberg|73|69|70|69|281
+T3|Collin Morikawa|71|70|69|74|284
+T3|Max Homa|67|71|73|73|284
+T3|Tommy Fleetwood|72|71|72|69|284
+T6|Bryson DeChambeau|65|73|75|73|286
+T6|Cameron Smith|71|72|72|71|286
+8|Xander Schauffele|72|72|70|73|287
+T9|Cameron Young|70|73|72|73|288
+T9|Tyrrell Hatton|72|74|73|69|288
+T9|Will Zalatoris|70|77|72|69|288
+T12|Adam Schenk|73|71|72|73|289
+T12|Cam Davis|69|72|73|75|289
+T12|Matthieu Pavon|70|73|74|72|289
+T12|Patrick Reed|74|70|73|72|289
+T16|Byeong Hun An|70|73|72|75|290
+T16|Chris Kirk|74|75|68|73|290
+T16|Nicolai Hojgaard|67|73|74|76|290
+T16|Sepp Straka|73|71|74|72|290
+T20|Lucas Glover|71|73|72|75|291
+T20|Taylor Moore|71|75|75|70|291
+T22|Adam Scott|76|74|70|72|292
+T22|Harris English|72|74|75|71|292
+T22|Joaquin Niemann|70|78|71|73|292
+T22|Keegan Bradley|78|71|74|69|292
+T22|Matt Fitzpatrick|71|73|73|75|292
+T22|Min Woo Lee|74|74|75|69|292
+T22|Patrick Cantlay|71|75|70|76|292
+T22|Rory McIlroy|71|77|71|73|292
+T30|J.T. Poston|75|74|74|70|293
+T30|Jason Day|75|73|76|69|293
+T30|Rickie Fowler|76|74|71|72|293
+T30|Si Woo Kim|74|76|73|70|293
+T30|Tom Kim|72|78|77|66|293
+T35|Akshay Bhatia|72|75|74|73|294
+T35|Camilo Villegas|74|75|76|69|294
+T35|Kurt Kitayama|71|73|82|68|294
+T38|Corey Conners|70|76|76|73|295
+T38|Hideki Matsuyama|76|74|71|74|295
+T38|Luke List|75|75|71|74|295
+T38|Russell Henley|73|77|74|71|295
+T38|Ryan Fox|69|74|77|75|295
+T43|Phil Mickelson|73|75|74|74|296
+T43|Shane Lowry|73|74|75|74|296
+T45|Brooks Koepka|73|73|76|75|297
+T45|Danny Willett|68|75|76|78|297
+T45|Denny McCarthy|74|74|79|70|297
+T45|Jon Rahm|73|76|72|76|297
+T45|Jose Maria Olazabal|77|73|75|72|297
+T45|Sahith Theegala|74|74|74|75|297
+51|Grayson Murray|76|74|78|70|298
+52|Eric Cole|73|72|81|73|299
+T53|Adam Hadwin|75|73|82|70|300
+T53|Neal Shipley|71|76|80|73|300
+T55|Erik van Rooyen|71|76|78|76|301
+T55|Jake Knapp|74|76|78|73|301
+T55|Tony Finau|71|78|72|80|301
+T58|Thorbjorn Olesen|71|79|77|75|302
+T58|Vijay Singh|75|73|82|72|302
+60|Tiger Woods|73|72|82|77|304
+CUT|Adrian Meronk|78|80|-|-|158
+CUT|Austin Eckroat|74|77|-|-|151
+CUT|Brian Harman|81|72|-|-|153
+CUT|Bubba Watson|74|80|-|-|154
+CUT|Charl Schwartzel|74|81|-|-|155
+CUT|Christo Lamprecht|74|78|-|-|152
+CUT|Dustin Johnson|78|79|-|-|157
+CUT|Emiliano Grillo|76|83|-|-|159
+CUT|Fred Couples|80|76|-|-|156
+CUT|Gary Woodland|76|81|-|-|157
+CUT|Jasper Stubbs|80|76|-|-|156
+CUT|Jordan Spieth|79|74|-|-|153
+CUT|Justin Rose|73|78|-|-|151
+CUT|Justin Thomas|72|79|-|-|151
+CUT|Lee Hodges|74|77|-|-|151
+CUT|Mike Weir|74|77|-|-|151
+CUT|Nick Dunlap|77|74|-|-|151
+CUT|Nick Taylor|77|81|-|-|158
+CUT|Peter Malnati|82|72|-|-|154
+CUT|Ryo Hisatsune|78|78|-|-|156
+CUT|Sam Burns|80|73|-|-|153
+CUT|Santiago de la Fuente|76|78|-|-|154
+CUT|Sergio Garcia|72|79|-|-|151
+CUT|Stephan Jaeger|74|80|-|-|154
+CUT|Stewart Hagestad|74|78|-|-|152
+CUT|Sungjae Im|77|74|-|-|151
+CUT|Viktor Hovland|71|81|-|-|152
+CUT|Wyndham Clark|73|78|-|-|151
+CUT|Zach Johnson|76|75|-|-|151

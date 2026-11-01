@@ -1,0 +1,144 @@
+# Toolkit.Tourney
+
+`Toolkit.Tourney` is a tournament model and playing engine. Describe the entrants, stages, scoring rules, schedules, and routes between stages in a `TCompetition`; then use `TCompetitionEngine` to create fixtures and record results. The engine updates standings and starts dependent stages when their entrants are known. It has no display dependency: an application can render the same state with Max2D, a web page, a report, or another interface.
+
+The definition (`TCompetition`) is separate from the current playing state (`TCompetitionState`). Both can be saved with jconv. Fixtures, results, standings, and the ordered correction journal live in the state. A builder is optional; it produces the same definition types that you can construct directly.
+
+## A first tournament
+
+This complete example makes two groups of two teams, sends each group winner to a final, and plays every fixture. `BuildChecked()` runs authoring checks before the engine starts.
+
+```blitzmax
+SuperStrict
+
+Framework BRL.StandardIO
+Import Toolkit.Tourney
+
+Local builder:TCompetitionBuilder = New TCompetitionBuilder("Four-team cup")
+For Local id:Int = 1 To 4
+    Local team:TParticipant = New TParticipant
+    team.id = id
+    team.name = "Team " + id
+    team.kind = EParticipantKind.Team
+    builder.AddParticipant(team)
+Next
+
+builder.AddGroups("GROUPS", 2, 2)
+builder.AddBracket("FINAL", 2)
+builder.ConnectTop("GROUPS", "FINAL", 1, EFilterScope.PerGroup)
+Local competition:TCompetition = builder.BuildChecked()
+
+Local engine:TCompetitionEngine = New TCompetitionEngine
+engine.RegisterScheduler(EStageType.Group, New TGroupScheduler)
+engine.RegisterScorer(EStageType.Group, New TGroupScorer)
+engine.RegisterAdvancer(EStageType.Group, New TGroupAdvancer)
+engine.RegisterScheduler(EStageType.Bracket, New TBracketScheduler)
+engine.RegisterScorer(EStageType.Bracket, New TBracketScorer)
+
+Local state:TCompetitionState = engine.Initialize(competition)
+For Local fixture:TFixtureState = EachIn state.stages[0].fixtures
+    engine.RecordResultAndAdvance(competition, state, "GROUPS", fixture.id, 1, 0)
+Next
+Local finalFixture:TFixtureState = state.stages[1].fixtures[0]
+engine.RecordResultAndAdvance(competition, state, "FINAL", finalFixture.id, 1, 0)
+Print "Winner: " + finalFixture.homeTeamId
+```
+
+`RecordResultAndAdvance` is a score-based convenience method. Use `RecordResult` with a `TResultPayload` for classifications, times, set scores, cricket innings, golf cards, and other results. See the runnable [builder example](../examples/builder_example.bmx) and the format-specific examples below.
+
+## Choose the structure
+
+A stage owns one format's fixtures and rules. Stages can run independently, follow one another, or wait for several sources. Connect them with `TCompetitionBuilder.Connect`, `ConnectTop`, `ConnectRules`, `ConnectOutcome`, or `DependOn`. A connection records both the destination dependency and the source's advancement route. Use separate stages when the fixture format or advancement rule changes, such as groups followed by knockout matches or a league followed by promotion playoffs.
+
+| Structure | Main configuration and use |
+| --- | --- |
+| Groups | `TGroupConfig`: round robin groups, preset draws, points and ordered table tie breakers. |
+| League | `TLeagueConfig`: opponent rules, divisions, weeks, byes, tables, and optional postseason selection. |
+| Bracket | `TBracketConfig`: seeded or random knockout, single matches, two-leg ties, set-based matches, or best-of series. |
+| Series | `TSeriesConfig`: events and sessions with position points, bonuses, named championships, and team rollups. |
+| Swiss | `TSwissConfig`: progressive pairings, byes, colour balance, and Buchholz tie breakers. |
+| Custom-code formats | A stage `formatCode` with registered scheduler and scorer; included examples cover timed heats, golf, sailing, cycling, and limited-overs cricket. |
+
+`TEliminationTreeBuilder` creates a graph for power-of-two single or double elimination, including optional placement matches and a double-elimination final reset. For a bespoke lower bracket or consolation format, build explicit stages and routes.
+
+`TAdvancement` selects or routes entrants. `TopN`, `BottomN`, and best-at-rank-across-groups rules cover common qualification patterns; bracket outcomes can route winners and losers separately. `TAdvancementMapping` places selected entrants in fixed draw slots, reseeds them, assigns a half of a bracket, or uses a conditional group/rank lookup table. This supports published bracket allocations without naming the eventual qualifying teams in advance.
+
+## Author and check a definition
+
+Use `TTourneyAuthoring` for common group, bracket, series, scoring, bonus, event, and selection values. Its helpers return ordinary model objects, so you can set specialised fields after creating them. `TCompetitionBuilder.Check()` returns `TAuthoringIssue` values with a stage and field path; `BuildChecked()` throws on the first issue. `Build()` performs graph validation only.
+
+Register a scheduler and scorer for every stage format the engine must play, and an advancer where entrants must move to a later stage. Built-in registration is explicit so applications can replace format behaviour. For a new format, set `TStage.formatCode` and call `engine.RegisterFormat(code, scheduler, scorer, advancer)`. A custom result can use `EResultKind.Custom`; its registered scorer owns interpretation and standings.
+
+Authoring checks catch common definition mistakes, but format handlers also validate fixtures and results at play time. Choose stable, unique participant and stage IDs: they identify results, routes, saved states, and correction actions.
+
+## Schedule the fixtures
+
+Schedulers generate the matchups. The league's `TLeagueScheduleConfig.matchupRules` can combine all-pairs, same-rank, rotating-division, and rotating-division-pair rules. `fixedFixtures` accepts a published or asymmetric matchup list. Week rules cover byes, one game per team per week, and minimum gaps between repeat opponents.
+
+Set `TStage.schedule.calendar` to candidate `TSlot` values for date/time and venue placement. The joint planner checks participant conflicts, home venues, blackouts, shared venues, and league weeks. `engine.Initialize(comp, True)` plans known root stages together. On an existing state, `PlanCalendar` assigns slots and `PlanSchedule` can choose league weeks and slots together. Pass `reassign = True` to move unplayed assignments; both calls accept a `maxSearchNodes` limit. A failed plan restores the previous assignments and exposes `engine.lastScheduleFailure`. The planner can prove some week or venue shortages early, but a search limit is distinct from proof that no schedule exists.
+
+`TSchedulePreferences` adds soft costs for rest, home/away streaks, and listed venue transitions. These rank feasible schedules; they do not override hard constraints. `lastSchedulePreferenceScore` and `lastSchedulePreferenceOptimal` report the chosen cost and whether optimality was proved. `ReviseFixtureSchedule` pins a requested change, optionally replans other unplayed fixtures, and records the revision for later result correction. See the [shared-stadium example](../examples/shared_stadium_planner.bmx).
+
+## Record results and read standings
+
+`engine.Initialize(comp)` returns state with the root fixtures ready. Submit a result using `engine.RecordResult(comp, state, stageId, fixtureId, payload)`. The engine validates the fixture and payload, updates standings, and attempts advancement when the stage completes. Read `state.stages` for fixture status, group tables, the main leaderboard, and named championship boards. A downstream stage may remain pending while its source is unfinished or a qualifying tie needs resolution.
+
+For a score-based fixture, the general result path looks like this:
+
+```blitzmax
+Local result:TResultPayload = New TResultPayload
+result.kind = EResultKind.HeadToHeadScore
+result.scoreHome = 2
+result.scoreAway = 1
+engine.RecordResult(competition, state, "GROUPS", fixture.id, result)
+
+For Local row:TLeaderboardRow = EachIn state.stages[0].leaderboard.rows
+    Print row.participantId + ": " + row.points
+Next
+```
+
+Other result kinds use the same `RecordResult` call with their own payload fields. The format's scorer determines which fields are meaningful; use the corresponding example when authoring a classification, timed heat, set-based match, or custom scorecard.
+
+Built-in group and league tables support ordered criteria including points, score difference, scores for, wins, fair-play penalties, and head-to-head comparisons. Series can award exact fractional points by setting `pointsScale` and using decimal-string `*Exact` fields; a scale that cannot represent an award is rejected rather than rounded. A series may maintain several championships from the same events, including a team championship through `TParticipant.parentTeamId`.
+
+Rows tied after all configured criteria share `sportingRank`; participant ID only stabilises their displayed order. `engine.UnresolvedTableTies(comp, state, stageId)` lists undecided tied sets and their scopes. After an official decision, call `RecordTableTieDecision` with the complete set in best-to-worst order and a reason, then keep the returned state. The scope is `""` for the main table, a group key for a group table, `"bestAcross"` for a blocking cross-group cutoff, or a named series championship code. The engine retries advancement after the decision.
+
+`AnalyzeClinching` can certify a points leader who cannot be caught under bounded remaining awards. `AnalyzeQualification` explores points-only qualification possibilities; its conclusions depend on the configured scoring model and search bound. `ResolveSeasonMovements` projects promotion or relegation into records for constructing the next season. These queries do not create the next competition automatically.
+
+## Save, correct, and present the state
+
+Definitions and playing states are jconv-serializable. Register `TConfigSerializer` when serializing definitions with polymorphic configs, and register factories for custom config codes. Save the definition used for play alongside its state; a result correction needs that same definition. A custom payload may need a journal converter supplied through `SetJournalConverter`.
+
+For the built-in configurations, after `Import Text.JConv`:
+
+```blitzmax
+Local converter:TJConv = New TJConvBuilder.RegisterSerializer("TConfig", New TConfigSerializer).WithEmptyArrays().Build()
+Local definitionJson:String = converter.ToJson(competition)
+Local stateJson:String = converter.ToJson(state)
+Local loadedCompetition:TCompetition = TCompetition(converter.FromJson(definitionJson, "TCompetition"))
+Local loadedState:TCompetitionState = TCompetitionState(converter.FromJson(stateJson, "TCompetitionState"))
+```
+
+`CorrectResult` returns a new state and any later actions invalidated by replay. Keep that returned state. `RecordTableTieDecision` and `ReviseFixtureSchedule` likewise return new states. Normal `RecordResult` updates the supplied state. Corrections replay the ordered journal, so changes to fixture assignments after the journal began should use the revision API. Completed results whose matchup changed during replay are reported rather than applied to a different contest.
+
+For a live presentation, attach an `ICompetitionResultObserver` with `AddResultObserver`. `TCompetitionTimeline` is a ready-made observer that keeps independent standings frames after each result. A replay-aware observer must implement `ICompetitionReplayObserver.OnReplayReset`. The timeline and the [Tour](../examples/tour_2024_viewer.bmx), [F1](../examples/f1_2021_viewer.bmx), and [World Cup](../examples/world_cup_2026_viewer.bmx) examples show how to keep rendering outside the engine.
+
+## Examples to start from
+
+| If you need… | Read… |
+| --- | --- |
+| A first groups-to-final tournament | [Builder example](../examples/builder_example.bmx) |
+| A seeded 128-player knockout | [Wimbledon 2025 replay](../examples/wimbledon_2025_replay.bmx) |
+| Groups, best third-place teams, and a conditional bracket | [World Cup 2026 replay](../examples/world_cup_2026_replay.bmx) |
+| Driver and constructor points, sprints, and half points | [F1 2021 replay](../examples/f1_2021_replay.bmx) |
+| Divisions, wild cards, seeds, and playoffs | [NFL 2024 replay](../examples/nfl_2024_replay.bmx) |
+| Best-of playoff series | [MLB 2024 replay](../examples/mlb_2024_replay.bmx) |
+| Cricket match points and net run rate | [Cricket 2011 replay](../examples/cricket_2011_replay.bmx) |
+| Golf cuts and totals | [Masters 2024 replay](../examples/masters_2024_replay.bmx) |
+| Heats, repechage, times, and lanes | [Paris 2024 800 m replay](../examples/paris_2024_mens_800m_replay.bmx) |
+| Sailing race penalties and discards | [Paris 2024 dinghy replay](../examples/paris_2024_mens_dinghy_replay.bmx) |
+| Multi-stage cycling and changing classifications | [Tour 2024 replay](../examples/tour_2024_replay.bmx) |
+
+The [technical notes](technical-notes.md) give field-level behaviour, tie-break details, replay assumptions, and known boundaries. The examples are acceptance cases for their configured rules, not implementations of every rule in each sport. In particular, calendars compare exact time strings rather than durations and time-zone intervals; Swiss pairing is not a complete FIDE implementation; and the tennis replay records set scores rather than point-by-point play.
+
+The [MLB viewer](../examples/mlb_2024_viewer.bmx) is a larger example of renderer-neutral output. Build and run [its exporter](../examples/mlb_2024_export_app.bmx) first to create game-by-game snapshots, then build and run the viewer. It shows division standings and a postseason bracket whose series scores and winners appear as the replay advances. Press `B` to switch views or `P` to jump to the first playoff game. The viewer's `--check` option validates the file without opening a window. The exporter saves and restores the playing state midway through the regular season before continuing through the postseason.

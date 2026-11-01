@@ -1,0 +1,63 @@
+# 2021 Formula One World Championship replay.
+ # Sources: https://api.jolpi.ca/ergast/f1/2021/results/ and /2021/sprint/
+ # Official totals: https://www.fia.com/events/fia-formula-one-world-championship/season-2021/2021-classifications
+# T|id|name|official championship points
+# D|id|name|team id|official championship points
+# R|round|name|fastest-lap driver id (0 if ineligible)|classified driver ids by position
+# S|round|classified sprint driver ids by position
+T|101|Alfa Romeo|13
+T|102|AlphaTauri|142
+T|103|Alpine F1 Team|155
+T|104|Aston Martin|77
+T|105|Ferrari|323.5
+T|106|Haas F1 Team|0
+T|107|McLaren|275
+T|108|Mercedes|613.5
+T|109|Red Bull|585.5
+T|110|Williams|23
+D|1|Fernando Alonso|103|81
+D|2|Valtteri Bottas|108|226
+D|3|Pierre Gasly|102|110
+D|4|Antonio Giovinazzi|101|3
+D|5|Lewis Hamilton|108|387.5
+D|6|Robert Kubica|101|0
+D|7|Nicholas Latifi|110|7
+D|8|Charles Leclerc|105|159
+D|9|Max Verstappen|109|395.5
+D|10|Nikita Mazepin|106|0
+D|11|Mick Schumacher|106|0
+D|12|Lando Norris|107|160
+D|13|Esteban Ocon|103|74
+D|14|Sergio Pérez|109|190
+D|15|Kimi Räikkönen|101|10
+D|16|Daniel Ricciardo|107|115
+D|17|George Russell|110|16
+D|18|Carlos Sainz|105|164.5
+D|19|Lance Stroll|104|34
+D|20|Yuki Tsunoda|102|32
+D|21|Sebastian Vettel|104|43
+R|1|Bahrain Grand Prix|2|5,9,2,12,14,8,16,18,20,19,15,4,13,17,21,11,3,7,1,10
+R|2|Emilia Romagna Grand Prix|5|9,5,12,8,18,16,3,19,13,1,14,20,15,4,21,11,10,2,17,7
+R|3|Portuguese Grand Prix|2|5,9,2,14,12,8,13,1,16,3,18,4,21,19,20,17,11,7,10,15
+R|4|Spanish Grand Prix|9|5,9,2,8,14,16,18,12,13,3,19,15,21,17,4,7,1,11,10,20
+R|5|Monaco Grand Prix|5|9,18,12,14,21,3,5,19,13,4,15,16,1,17,7,20,10,11,2,8
+R|6|Azerbaijan Grand Prix|0|14,21,3,8,12,1,20,18,16,15,4,2,11,10,5,7,17,9,19,13
+R|7|French Grand Prix|9|9,5,14,2,12,16,3,1,21,19,18,17,20,13,4,8,15,7,11,10
+R|8|Styrian Grand Prix|5|9,5,2,14,12,18,8,19,1,20,15,21,16,13,4,11,7,10,17,3
+R|9|Austrian Grand Prix|9|9,2,12,5,18,14,16,8,3,1,17,20,19,4,15,7,21,11,10,13
+R|10|British Grand Prix|0|5,8,2,12,16,18,1,19,13,20,3,17,4,7,15,14,10,11,21,9
+S|10|9,5,2,8,12,16,1,21,17,13,18,3,15,19,4,20,7,11,10,14
+R|11|Hungarian Grand Prix|3|13,5,18,1,3,20,7,17,9,15,16,11,4,10,12,2,14,8,19,21
+R|12|Belgian Grand Prix|0|9,17,5,16,21,3,13,8,7,18,1,2,4,12,20,11,10,15,14,19
+R|13|Dutch Grand Prix|5|9,5,2,3,8,1,18,14,13,12,16,19,21,4,6,7,17,11,20,10
+R|14|Italian Grand Prix|16|16,12,2,8,14,18,19,1,17,13,7,21,4,6,11,10,5,9,3,20
+S|14|2,9,16,12,5,8,18,4,14,19,1,21,13,7,17,20,10,6,11,3
+R|15|Russian Grand Prix|12|5,9,18,16,2,1,12,15,14,17,19,21,3,13,8,4,20,10,7,11
+R|16|Turkish Grand Prix|2|2,9,14,8,5,3,12,18,19,13,4,15,16,20,17,1,7,21,11,10
+R|17|United States Grand Prix|5|9,5,14,8,16,2,18,12,20,21,4,19,15,17,7,11,10,1,13,3
+R|18|Mexico City Grand Prix|0|9,5,14,3,8,18,21,15,1,12,4,16,13,19,2,17,7,10,11,20
+R|19|São Paulo Grand Prix|14|5,9,2,14,8,18,3,13,1,12,21,15,17,4,20,7,10,11,16,19
+S|19|2,9,18,14,5,12,8,3,13,21,16,1,4,19,20,7,17,15,11,10
+R|20|Qatar Grand Prix|9|5,9,1,14,13,19,18,8,12,21,3,16,20,15,4,11,17,10,7,2
+R|21|Saudi Arabian Grand Prix|5|5,9,2,13,16,3,8,18,4,12,19,7,1,20,15,21,14,10,17,11
+R|22|Abu Dhabi Grand Prix|9|9,5,18,20,3,2,12,1,13,8,21,16,19,11,14,7,4,17,15,10

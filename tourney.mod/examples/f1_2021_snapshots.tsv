@@ -1,0 +1,803 @@
+# 2021 F1 engine snapshots; points are stored as half-point units
+# E|session|round|event|session code|fastest lap driver|fastest lap name
+# R|session|championship|rank|id|name|team|points units|session place|points gained units
+E|1|1|Bahrain Grand Prix|RACE|2|Valtteri Bottas
+R|1|0|1|5|Lewis Hamilton|Mercedes|50|1|50
+R|1|0|2|9|Max Verstappen|Red Bull|36|2|36
+R|1|0|3|2|Valtteri Bottas|Mercedes|32|3|32
+R|1|0|4|12|Lando Norris|McLaren|24|4|24
+R|1|0|5|14|Sergio Pérez|Red Bull|20|5|20
+R|1|0|6|8|Charles Leclerc|Ferrari|16|6|16
+R|1|0|7|16|Daniel Ricciardo|McLaren|12|7|12
+R|1|0|8|18|Carlos Sainz|Ferrari|8|8|8
+R|1|0|9|20|Yuki Tsunoda|AlphaTauri|4|9|4
+R|1|0|10|19|Lance Stroll|Aston Martin|2|10|2
+R|1|0|11|15|Kimi Räikkönen|Alfa Romeo|0|11|0
+R|1|0|12|4|Antonio Giovinazzi|Alfa Romeo|0|12|0
+R|1|0|13|13|Esteban Ocon|Alpine F1 Team|0|13|0
+R|1|0|14|17|George Russell|Williams|0|14|0
+R|1|0|15|21|Sebastian Vettel|Aston Martin|0|15|0
+R|1|0|16|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|1|0|17|3|Pierre Gasly|AlphaTauri|0|17|0
+R|1|0|18|7|Nicholas Latifi|Williams|0|18|0
+R|1|0|19|1|Fernando Alonso|Alpine F1 Team|0|19|0
+R|1|0|20|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|1|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|1|1|1|108|Mercedes||82|0|82
+R|1|1|2|109|Red Bull||56|0|56
+R|1|1|3|107|McLaren||36|0|36
+R|1|1|4|105|Ferrari||24|0|24
+R|1|1|5|102|AlphaTauri||4|0|4
+R|1|1|6|104|Aston Martin||2|0|2
+R|1|1|7|101|Alfa Romeo||0|0|0
+R|1|1|8|103|Alpine F1 Team||0|0|0
+R|1|1|9|110|Williams||0|0|0
+R|1|1|10|106|Haas F1 Team||0|0|0
+E|2|2|Emilia Romagna Grand Prix|RACE|5|Lewis Hamilton
+R|2|0|1|5|Lewis Hamilton|Mercedes|88|2|38
+R|2|0|2|9|Max Verstappen|Red Bull|86|1|50
+R|2|0|3|12|Lando Norris|McLaren|54|3|30
+R|2|0|4|8|Charles Leclerc|Ferrari|40|4|24
+R|2|0|5|2|Valtteri Bottas|Mercedes|32|18|0
+R|2|0|6|18|Carlos Sainz|Ferrari|28|5|20
+R|2|0|7|16|Daniel Ricciardo|McLaren|28|6|16
+R|2|0|8|14|Sergio Pérez|Red Bull|20|11|0
+R|2|0|9|3|Pierre Gasly|AlphaTauri|12|7|12
+R|2|0|10|19|Lance Stroll|Aston Martin|10|8|8
+R|2|0|11|20|Yuki Tsunoda|AlphaTauri|4|12|0
+R|2|0|12|13|Esteban Ocon|Alpine F1 Team|4|9|4
+R|2|0|13|1|Fernando Alonso|Alpine F1 Team|2|10|2
+R|2|0|14|15|Kimi Räikkönen|Alfa Romeo|0|13|0
+R|2|0|15|4|Antonio Giovinazzi|Alfa Romeo|0|14|0
+R|2|0|16|17|George Russell|Williams|0|19|0
+R|2|0|17|21|Sebastian Vettel|Aston Martin|0|15|0
+R|2|0|18|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|2|0|19|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|2|0|20|7|Nicholas Latifi|Williams|0|20|0
+R|2|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|2|1|1|108|Mercedes||120|0|38
+R|2|1|2|109|Red Bull||106|0|50
+R|2|1|3|107|McLaren||82|0|46
+R|2|1|4|105|Ferrari||68|0|44
+R|2|1|5|102|AlphaTauri||16|0|12
+R|2|1|6|104|Aston Martin||10|0|8
+R|2|1|7|103|Alpine F1 Team||6|0|6
+R|2|1|8|101|Alfa Romeo||0|0|0
+R|2|1|9|110|Williams||0|0|0
+R|2|1|10|106|Haas F1 Team||0|0|0
+E|3|3|Portuguese Grand Prix|RACE|2|Valtteri Bottas
+R|3|0|1|5|Lewis Hamilton|Mercedes|138|1|50
+R|3|0|2|9|Max Verstappen|Red Bull|122|2|36
+R|3|0|3|12|Lando Norris|McLaren|74|5|20
+R|3|0|4|2|Valtteri Bottas|Mercedes|64|3|32
+R|3|0|5|8|Charles Leclerc|Ferrari|56|6|16
+R|3|0|6|14|Sergio Pérez|Red Bull|44|4|24
+R|3|0|7|16|Daniel Ricciardo|McLaren|32|9|4
+R|3|0|8|18|Carlos Sainz|Ferrari|28|11|0
+R|3|0|9|13|Esteban Ocon|Alpine F1 Team|16|7|12
+R|3|0|10|3|Pierre Gasly|AlphaTauri|14|10|2
+R|3|0|11|19|Lance Stroll|Aston Martin|10|14|0
+R|3|0|12|1|Fernando Alonso|Alpine F1 Team|10|8|8
+R|3|0|13|20|Yuki Tsunoda|AlphaTauri|4|15|0
+R|3|0|14|15|Kimi Räikkönen|Alfa Romeo|0|20|0
+R|3|0|15|4|Antonio Giovinazzi|Alfa Romeo|0|12|0
+R|3|0|16|21|Sebastian Vettel|Aston Martin|0|13|0
+R|3|0|17|17|George Russell|Williams|0|16|0
+R|3|0|18|11|Mick Schumacher|Haas F1 Team|0|17|0
+R|3|0|19|10|Nikita Mazepin|Haas F1 Team|0|19|0
+R|3|0|20|7|Nicholas Latifi|Williams|0|18|0
+R|3|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|3|1|1|108|Mercedes||202|0|82
+R|3|1|2|109|Red Bull||166|0|60
+R|3|1|3|107|McLaren||106|0|24
+R|3|1|4|105|Ferrari||84|0|16
+R|3|1|5|103|Alpine F1 Team||26|0|20
+R|3|1|6|102|AlphaTauri||18|0|2
+R|3|1|7|104|Aston Martin||10|0|0
+R|3|1|8|101|Alfa Romeo||0|0|0
+R|3|1|9|110|Williams||0|0|0
+R|3|1|10|106|Haas F1 Team||0|0|0
+E|4|4|Spanish Grand Prix|RACE|9|Max Verstappen
+R|4|0|1|5|Lewis Hamilton|Mercedes|188|1|50
+R|4|0|2|9|Max Verstappen|Red Bull|160|2|38
+R|4|0|3|2|Valtteri Bottas|Mercedes|94|3|30
+R|4|0|4|12|Lando Norris|McLaren|82|8|8
+R|4|0|5|8|Charles Leclerc|Ferrari|80|4|24
+R|4|0|6|14|Sergio Pérez|Red Bull|64|5|20
+R|4|0|7|16|Daniel Ricciardo|McLaren|48|6|16
+R|4|0|8|18|Carlos Sainz|Ferrari|40|7|12
+R|4|0|9|13|Esteban Ocon|Alpine F1 Team|20|9|4
+R|4|0|10|3|Pierre Gasly|AlphaTauri|16|10|2
+R|4|0|11|19|Lance Stroll|Aston Martin|10|11|0
+R|4|0|12|1|Fernando Alonso|Alpine F1 Team|10|17|0
+R|4|0|13|20|Yuki Tsunoda|AlphaTauri|4|20|0
+R|4|0|14|15|Kimi Räikkönen|Alfa Romeo|0|12|0
+R|4|0|15|4|Antonio Giovinazzi|Alfa Romeo|0|15|0
+R|4|0|16|21|Sebastian Vettel|Aston Martin|0|13|0
+R|4|0|17|17|George Russell|Williams|0|14|0
+R|4|0|18|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|4|0|19|7|Nicholas Latifi|Williams|0|16|0
+R|4|0|20|10|Nikita Mazepin|Haas F1 Team|0|19|0
+R|4|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|4|1|1|108|Mercedes||282|0|80
+R|4|1|2|109|Red Bull||224|0|58
+R|4|1|3|107|McLaren||130|0|24
+R|4|1|4|105|Ferrari||120|0|36
+R|4|1|5|103|Alpine F1 Team||30|0|4
+R|4|1|6|102|AlphaTauri||20|0|2
+R|4|1|7|104|Aston Martin||10|0|0
+R|4|1|8|101|Alfa Romeo||0|0|0
+R|4|1|9|110|Williams||0|0|0
+R|4|1|10|106|Haas F1 Team||0|0|0
+E|5|5|Monaco Grand Prix|RACE|5|Lewis Hamilton
+R|5|0|1|9|Max Verstappen|Red Bull|210|1|50
+R|5|0|2|5|Lewis Hamilton|Mercedes|202|7|14
+R|5|0|3|12|Lando Norris|McLaren|112|3|30
+R|5|0|4|2|Valtteri Bottas|Mercedes|94|19|0
+R|5|0|5|14|Sergio Pérez|Red Bull|88|4|24
+R|5|0|6|8|Charles Leclerc|Ferrari|80|20|0
+R|5|0|7|18|Carlos Sainz|Ferrari|76|2|36
+R|5|0|8|16|Daniel Ricciardo|McLaren|48|12|0
+R|5|0|9|3|Pierre Gasly|AlphaTauri|32|6|16
+R|5|0|10|13|Esteban Ocon|Alpine F1 Team|24|9|4
+R|5|0|11|21|Sebastian Vettel|Aston Martin|20|5|20
+R|5|0|12|19|Lance Stroll|Aston Martin|18|8|8
+R|5|0|13|1|Fernando Alonso|Alpine F1 Team|10|13|0
+R|5|0|14|20|Yuki Tsunoda|AlphaTauri|4|16|0
+R|5|0|15|4|Antonio Giovinazzi|Alfa Romeo|2|10|2
+R|5|0|16|15|Kimi Räikkönen|Alfa Romeo|0|11|0
+R|5|0|17|17|George Russell|Williams|0|14|0
+R|5|0|18|7|Nicholas Latifi|Williams|0|15|0
+R|5|0|19|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|5|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|5|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|5|1|1|109|Red Bull||298|0|74
+R|5|1|2|108|Mercedes||296|0|14
+R|5|1|3|107|McLaren||160|0|30
+R|5|1|4|105|Ferrari||156|0|36
+R|5|1|5|104|Aston Martin||38|0|28
+R|5|1|6|102|AlphaTauri||36|0|16
+R|5|1|7|103|Alpine F1 Team||34|0|4
+R|5|1|8|101|Alfa Romeo||2|0|2
+R|5|1|9|110|Williams||0|0|0
+R|5|1|10|106|Haas F1 Team||0|0|0
+E|6|6|Azerbaijan Grand Prix|RACE|0|
+R|6|0|1|9|Max Verstappen|Red Bull|210|18|0
+R|6|0|2|5|Lewis Hamilton|Mercedes|202|15|0
+R|6|0|3|14|Sergio Pérez|Red Bull|138|1|50
+R|6|0|4|12|Lando Norris|McLaren|132|5|20
+R|6|0|5|8|Charles Leclerc|Ferrari|104|4|24
+R|6|0|6|2|Valtteri Bottas|Mercedes|94|12|0
+R|6|0|7|18|Carlos Sainz|Ferrari|84|8|8
+R|6|0|8|3|Pierre Gasly|AlphaTauri|62|3|30
+R|6|0|9|21|Sebastian Vettel|Aston Martin|56|2|36
+R|6|0|10|16|Daniel Ricciardo|McLaren|52|9|4
+R|6|0|11|1|Fernando Alonso|Alpine F1 Team|26|6|16
+R|6|0|12|13|Esteban Ocon|Alpine F1 Team|24|20|0
+R|6|0|13|19|Lance Stroll|Aston Martin|18|19|0
+R|6|0|14|20|Yuki Tsunoda|AlphaTauri|16|7|12
+R|6|0|15|15|Kimi Räikkönen|Alfa Romeo|2|10|2
+R|6|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|11|0
+R|6|0|17|11|Mick Schumacher|Haas F1 Team|0|13|0
+R|6|0|18|17|George Russell|Williams|0|17|0
+R|6|0|19|10|Nikita Mazepin|Haas F1 Team|0|14|0
+R|6|0|20|7|Nicholas Latifi|Williams|0|16|0
+R|6|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|6|1|1|109|Red Bull||348|0|50
+R|6|1|2|108|Mercedes||296|0|0
+R|6|1|3|105|Ferrari||188|0|32
+R|6|1|4|107|McLaren||184|0|24
+R|6|1|5|102|AlphaTauri||78|0|42
+R|6|1|6|104|Aston Martin||74|0|36
+R|6|1|7|103|Alpine F1 Team||50|0|16
+R|6|1|8|101|Alfa Romeo||4|0|2
+R|6|1|9|106|Haas F1 Team||0|0|0
+R|6|1|10|110|Williams||0|0|0
+E|7|7|French Grand Prix|RACE|9|Max Verstappen
+R|7|0|1|9|Max Verstappen|Red Bull|262|1|52
+R|7|0|2|5|Lewis Hamilton|Mercedes|238|2|36
+R|7|0|3|14|Sergio Pérez|Red Bull|168|3|30
+R|7|0|4|12|Lando Norris|McLaren|152|5|20
+R|7|0|5|2|Valtteri Bottas|Mercedes|118|4|24
+R|7|0|6|8|Charles Leclerc|Ferrari|104|16|0
+R|7|0|7|18|Carlos Sainz|Ferrari|84|11|0
+R|7|0|8|3|Pierre Gasly|AlphaTauri|74|7|12
+R|7|0|9|16|Daniel Ricciardo|McLaren|68|6|16
+R|7|0|10|21|Sebastian Vettel|Aston Martin|60|9|4
+R|7|0|11|1|Fernando Alonso|Alpine F1 Team|34|8|8
+R|7|0|12|13|Esteban Ocon|Alpine F1 Team|24|14|0
+R|7|0|13|19|Lance Stroll|Aston Martin|20|10|2
+R|7|0|14|20|Yuki Tsunoda|AlphaTauri|16|13|0
+R|7|0|15|15|Kimi Räikkönen|Alfa Romeo|2|17|0
+R|7|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|15|0
+R|7|0|17|17|George Russell|Williams|0|12|0
+R|7|0|18|11|Mick Schumacher|Haas F1 Team|0|19|0
+R|7|0|19|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|7|0|20|7|Nicholas Latifi|Williams|0|18|0
+R|7|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|7|1|1|109|Red Bull||430|0|82
+R|7|1|2|108|Mercedes||356|0|60
+R|7|1|3|107|McLaren||220|0|36
+R|7|1|4|105|Ferrari||188|0|0
+R|7|1|5|102|AlphaTauri||90|0|12
+R|7|1|6|104|Aston Martin||80|0|6
+R|7|1|7|103|Alpine F1 Team||58|0|8
+R|7|1|8|101|Alfa Romeo||4|0|0
+R|7|1|9|110|Williams||0|0|0
+R|7|1|10|106|Haas F1 Team||0|0|0
+E|8|8|Styrian Grand Prix|RACE|5|Lewis Hamilton
+R|8|0|1|9|Max Verstappen|Red Bull|312|1|50
+R|8|0|2|5|Lewis Hamilton|Mercedes|276|2|38
+R|8|0|3|14|Sergio Pérez|Red Bull|192|4|24
+R|8|0|4|12|Lando Norris|McLaren|172|5|20
+R|8|0|5|2|Valtteri Bottas|Mercedes|148|3|30
+R|8|0|6|8|Charles Leclerc|Ferrari|116|7|12
+R|8|0|7|18|Carlos Sainz|Ferrari|100|6|16
+R|8|0|8|3|Pierre Gasly|AlphaTauri|74|20|0
+R|8|0|9|16|Daniel Ricciardo|McLaren|68|13|0
+R|8|0|10|21|Sebastian Vettel|Aston Martin|60|12|0
+R|8|0|11|1|Fernando Alonso|Alpine F1 Team|38|9|4
+R|8|0|12|19|Lance Stroll|Aston Martin|28|8|8
+R|8|0|13|13|Esteban Ocon|Alpine F1 Team|24|14|0
+R|8|0|14|20|Yuki Tsunoda|AlphaTauri|18|10|2
+R|8|0|15|15|Kimi Räikkönen|Alfa Romeo|2|11|0
+R|8|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|15|0
+R|8|0|17|17|George Russell|Williams|0|19|0
+R|8|0|18|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|8|0|19|10|Nikita Mazepin|Haas F1 Team|0|18|0
+R|8|0|20|7|Nicholas Latifi|Williams|0|17|0
+R|8|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|8|1|1|109|Red Bull||504|0|74
+R|8|1|2|108|Mercedes||424|0|68
+R|8|1|3|107|McLaren||240|0|20
+R|8|1|4|105|Ferrari||216|0|28
+R|8|1|5|102|AlphaTauri||92|0|2
+R|8|1|6|104|Aston Martin||88|0|8
+R|8|1|7|103|Alpine F1 Team||62|0|4
+R|8|1|8|101|Alfa Romeo||4|0|0
+R|8|1|9|110|Williams||0|0|0
+R|8|1|10|106|Haas F1 Team||0|0|0
+E|9|9|Austrian Grand Prix|RACE|9|Max Verstappen
+R|9|0|1|9|Max Verstappen|Red Bull|364|1|52
+R|9|0|2|5|Lewis Hamilton|Mercedes|300|4|24
+R|9|0|3|14|Sergio Pérez|Red Bull|208|6|16
+R|9|0|4|12|Lando Norris|McLaren|202|3|30
+R|9|0|5|2|Valtteri Bottas|Mercedes|184|2|36
+R|9|0|6|8|Charles Leclerc|Ferrari|124|8|8
+R|9|0|7|18|Carlos Sainz|Ferrari|120|5|20
+R|9|0|8|16|Daniel Ricciardo|McLaren|80|7|12
+R|9|0|9|3|Pierre Gasly|AlphaTauri|78|9|4
+R|9|0|10|21|Sebastian Vettel|Aston Martin|60|17|0
+R|9|0|11|1|Fernando Alonso|Alpine F1 Team|40|10|2
+R|9|0|12|19|Lance Stroll|Aston Martin|28|13|0
+R|9|0|13|13|Esteban Ocon|Alpine F1 Team|24|20|0
+R|9|0|14|20|Yuki Tsunoda|AlphaTauri|18|12|0
+R|9|0|15|15|Kimi Räikkönen|Alfa Romeo|2|15|0
+R|9|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|14|0
+R|9|0|17|17|George Russell|Williams|0|11|0
+R|9|0|18|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|9|0|19|10|Nikita Mazepin|Haas F1 Team|0|19|0
+R|9|0|20|7|Nicholas Latifi|Williams|0|16|0
+R|9|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|9|1|1|109|Red Bull||572|0|68
+R|9|1|2|108|Mercedes||484|0|60
+R|9|1|3|107|McLaren||282|0|42
+R|9|1|4|105|Ferrari||244|0|28
+R|9|1|5|102|AlphaTauri||96|0|4
+R|9|1|6|104|Aston Martin||88|0|0
+R|9|1|7|103|Alpine F1 Team||64|0|2
+R|9|1|8|101|Alfa Romeo||4|0|0
+R|9|1|9|110|Williams||0|0|0
+R|9|1|10|106|Haas F1 Team||0|0|0
+E|10|10|British Grand Prix|SPRINT|0|
+R|10|0|1|9|Max Verstappen|Red Bull|370|1|6
+R|10|0|2|5|Lewis Hamilton|Mercedes|304|2|4
+R|10|0|3|14|Sergio Pérez|Red Bull|208|20|0
+R|10|0|4|12|Lando Norris|McLaren|202|5|0
+R|10|0|5|2|Valtteri Bottas|Mercedes|186|3|2
+R|10|0|6|8|Charles Leclerc|Ferrari|124|4|0
+R|10|0|7|18|Carlos Sainz|Ferrari|120|11|0
+R|10|0|8|16|Daniel Ricciardo|McLaren|80|6|0
+R|10|0|9|3|Pierre Gasly|AlphaTauri|78|12|0
+R|10|0|10|21|Sebastian Vettel|Aston Martin|60|8|0
+R|10|0|11|1|Fernando Alonso|Alpine F1 Team|40|7|0
+R|10|0|12|19|Lance Stroll|Aston Martin|28|14|0
+R|10|0|13|13|Esteban Ocon|Alpine F1 Team|24|10|0
+R|10|0|14|20|Yuki Tsunoda|AlphaTauri|18|16|0
+R|10|0|15|15|Kimi Räikkönen|Alfa Romeo|2|13|0
+R|10|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|15|0
+R|10|0|17|17|George Russell|Williams|0|9|0
+R|10|0|18|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|10|0|19|10|Nikita Mazepin|Haas F1 Team|0|19|0
+R|10|0|20|7|Nicholas Latifi|Williams|0|17|0
+R|10|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|10|1|1|109|Red Bull||578|0|6
+R|10|1|2|108|Mercedes||490|0|6
+R|10|1|3|107|McLaren||282|0|0
+R|10|1|4|105|Ferrari||244|0|0
+R|10|1|5|102|AlphaTauri||96|0|0
+R|10|1|6|104|Aston Martin||88|0|0
+R|10|1|7|103|Alpine F1 Team||64|0|0
+R|10|1|8|101|Alfa Romeo||4|0|0
+R|10|1|9|110|Williams||0|0|0
+R|10|1|10|106|Haas F1 Team||0|0|0
+E|11|10|British Grand Prix|RACE|0|
+R|11|0|1|9|Max Verstappen|Red Bull|370|20|0
+R|11|0|2|5|Lewis Hamilton|Mercedes|354|1|50
+R|11|0|3|12|Lando Norris|McLaren|226|4|24
+R|11|0|4|2|Valtteri Bottas|Mercedes|216|3|30
+R|11|0|5|14|Sergio Pérez|Red Bull|208|16|0
+R|11|0|6|8|Charles Leclerc|Ferrari|160|2|36
+R|11|0|7|18|Carlos Sainz|Ferrari|136|6|16
+R|11|0|8|16|Daniel Ricciardo|McLaren|100|5|20
+R|11|0|9|3|Pierre Gasly|AlphaTauri|78|11|0
+R|11|0|10|21|Sebastian Vettel|Aston Martin|60|19|0
+R|11|0|11|1|Fernando Alonso|Alpine F1 Team|52|7|12
+R|11|0|12|19|Lance Stroll|Aston Martin|36|8|8
+R|11|0|13|13|Esteban Ocon|Alpine F1 Team|28|9|4
+R|11|0|14|20|Yuki Tsunoda|AlphaTauri|20|10|2
+R|11|0|15|15|Kimi Räikkönen|Alfa Romeo|2|15|0
+R|11|0|16|4|Antonio Giovinazzi|Alfa Romeo|2|13|0
+R|11|0|17|17|George Russell|Williams|0|12|0
+R|11|0|18|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|11|0|19|7|Nicholas Latifi|Williams|0|14|0
+R|11|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|11|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|11|1|1|109|Red Bull||578|0|0
+R|11|1|2|108|Mercedes||570|0|80
+R|11|1|3|107|McLaren||326|0|44
+R|11|1|4|105|Ferrari||296|0|52
+R|11|1|5|102|AlphaTauri||98|0|2
+R|11|1|6|104|Aston Martin||96|0|8
+R|11|1|7|103|Alpine F1 Team||80|0|16
+R|11|1|8|101|Alfa Romeo||4|0|0
+R|11|1|9|110|Williams||0|0|0
+R|11|1|10|106|Haas F1 Team||0|0|0
+E|12|11|Hungarian Grand Prix|RACE|3|Pierre Gasly
+R|12|0|1|5|Lewis Hamilton|Mercedes|390|2|36
+R|12|0|2|9|Max Verstappen|Red Bull|374|9|4
+R|12|0|3|12|Lando Norris|McLaren|226|15|0
+R|12|0|4|2|Valtteri Bottas|Mercedes|216|16|0
+R|12|0|5|14|Sergio Pérez|Red Bull|208|17|0
+R|12|0|6|18|Carlos Sainz|Ferrari|166|3|30
+R|12|0|7|8|Charles Leclerc|Ferrari|160|18|0
+R|12|0|8|3|Pierre Gasly|AlphaTauri|100|5|22
+R|12|0|9|16|Daniel Ricciardo|McLaren|100|11|0
+R|12|0|10|13|Esteban Ocon|Alpine F1 Team|78|1|50
+R|12|0|11|1|Fernando Alonso|Alpine F1 Team|76|4|24
+R|12|0|12|21|Sebastian Vettel|Aston Martin|60|20|0
+R|12|0|13|20|Yuki Tsunoda|AlphaTauri|36|6|16
+R|12|0|14|19|Lance Stroll|Aston Martin|36|19|0
+R|12|0|15|7|Nicholas Latifi|Williams|12|7|12
+R|12|0|16|17|George Russell|Williams|8|8|8
+R|12|0|17|15|Kimi Räikkönen|Alfa Romeo|4|10|2
+R|12|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|13|0
+R|12|0|19|11|Mick Schumacher|Haas F1 Team|0|12|0
+R|12|0|20|10|Nikita Mazepin|Haas F1 Team|0|14|0
+R|12|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|12|1|1|108|Mercedes||606|0|36
+R|12|1|2|109|Red Bull||582|0|4
+R|12|1|3|105|Ferrari||326|0|30
+R|12|1|4|107|McLaren||326|0|0
+R|12|1|5|103|Alpine F1 Team||154|0|74
+R|12|1|6|102|AlphaTauri||136|0|38
+R|12|1|7|104|Aston Martin||96|0|0
+R|12|1|8|110|Williams||20|0|20
+R|12|1|9|101|Alfa Romeo||6|0|2
+R|12|1|10|106|Haas F1 Team||0|0|0
+E|13|12|Belgian Grand Prix|RACE|0|
+R|13|0|1|5|Lewis Hamilton|Mercedes|405|3|15
+R|13|0|2|9|Max Verstappen|Red Bull|399|1|25
+R|13|0|3|12|Lando Norris|McLaren|226|14|0
+R|13|0|4|2|Valtteri Bottas|Mercedes|216|12|0
+R|13|0|5|14|Sergio Pérez|Red Bull|208|19|0
+R|13|0|6|18|Carlos Sainz|Ferrari|167|10|1
+R|13|0|7|8|Charles Leclerc|Ferrari|164|8|4
+R|13|0|8|16|Daniel Ricciardo|McLaren|112|4|12
+R|13|0|9|3|Pierre Gasly|AlphaTauri|108|6|8
+R|13|0|10|13|Esteban Ocon|Alpine F1 Team|84|7|6
+R|13|0|11|1|Fernando Alonso|Alpine F1 Team|76|11|0
+R|13|0|12|21|Sebastian Vettel|Aston Martin|70|5|10
+R|13|0|13|20|Yuki Tsunoda|AlphaTauri|36|15|0
+R|13|0|14|19|Lance Stroll|Aston Martin|36|20|0
+R|13|0|15|17|George Russell|Williams|26|2|18
+R|13|0|16|7|Nicholas Latifi|Williams|14|9|2
+R|13|0|17|15|Kimi Räikkönen|Alfa Romeo|4|18|0
+R|13|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|13|0
+R|13|0|19|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|13|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|13|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|13|1|1|108|Mercedes||621|0|15
+R|13|1|2|109|Red Bull||607|0|25
+R|13|1|3|107|McLaren||338|0|12
+R|13|1|4|105|Ferrari||331|0|5
+R|13|1|5|103|Alpine F1 Team||160|0|6
+R|13|1|6|102|AlphaTauri||144|0|8
+R|13|1|7|104|Aston Martin||106|0|10
+R|13|1|8|110|Williams||40|0|20
+R|13|1|9|101|Alfa Romeo||6|0|0
+R|13|1|10|106|Haas F1 Team||0|0|0
+E|14|13|Dutch Grand Prix|RACE|5|Lewis Hamilton
+R|14|0|1|9|Max Verstappen|Red Bull|449|1|50
+R|14|0|2|5|Lewis Hamilton|Mercedes|443|2|38
+R|14|0|3|2|Valtteri Bottas|Mercedes|246|3|30
+R|14|0|4|12|Lando Norris|McLaren|228|10|2
+R|14|0|5|14|Sergio Pérez|Red Bull|216|8|8
+R|14|0|6|8|Charles Leclerc|Ferrari|184|5|20
+R|14|0|7|18|Carlos Sainz|Ferrari|179|7|12
+R|14|0|8|3|Pierre Gasly|AlphaTauri|132|4|24
+R|14|0|9|16|Daniel Ricciardo|McLaren|112|11|0
+R|14|0|10|1|Fernando Alonso|Alpine F1 Team|92|6|16
+R|14|0|11|13|Esteban Ocon|Alpine F1 Team|88|9|4
+R|14|0|12|21|Sebastian Vettel|Aston Martin|70|13|0
+R|14|0|13|20|Yuki Tsunoda|AlphaTauri|36|19|0
+R|14|0|14|19|Lance Stroll|Aston Martin|36|12|0
+R|14|0|15|17|George Russell|Williams|26|17|0
+R|14|0|16|7|Nicholas Latifi|Williams|14|16|0
+R|14|0|17|15|Kimi Räikkönen|Alfa Romeo|4|0|0
+R|14|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|14|0
+R|14|0|19|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|14|0|20|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|14|0|21|6|Robert Kubica|Alfa Romeo|0|15|0
+R|14|1|1|108|Mercedes||689|0|68
+R|14|1|2|109|Red Bull||665|0|58
+R|14|1|3|105|Ferrari||363|0|32
+R|14|1|4|107|McLaren||340|0|2
+R|14|1|5|103|Alpine F1 Team||180|0|20
+R|14|1|6|102|AlphaTauri||168|0|24
+R|14|1|7|104|Aston Martin||106|0|0
+R|14|1|8|110|Williams||40|0|0
+R|14|1|9|101|Alfa Romeo||6|0|0
+R|14|1|10|106|Haas F1 Team||0|0|0
+E|15|14|Italian Grand Prix|SPRINT|0|
+R|15|0|1|9|Max Verstappen|Red Bull|453|2|4
+R|15|0|2|5|Lewis Hamilton|Mercedes|443|5|0
+R|15|0|3|2|Valtteri Bottas|Mercedes|252|1|6
+R|15|0|4|12|Lando Norris|McLaren|228|4|0
+R|15|0|5|14|Sergio Pérez|Red Bull|216|9|0
+R|15|0|6|8|Charles Leclerc|Ferrari|184|6|0
+R|15|0|7|18|Carlos Sainz|Ferrari|179|7|0
+R|15|0|8|3|Pierre Gasly|AlphaTauri|132|20|0
+R|15|0|9|16|Daniel Ricciardo|McLaren|114|3|2
+R|15|0|10|1|Fernando Alonso|Alpine F1 Team|92|11|0
+R|15|0|11|13|Esteban Ocon|Alpine F1 Team|88|13|0
+R|15|0|12|21|Sebastian Vettel|Aston Martin|70|12|0
+R|15|0|13|20|Yuki Tsunoda|AlphaTauri|36|16|0
+R|15|0|14|19|Lance Stroll|Aston Martin|36|10|0
+R|15|0|15|17|George Russell|Williams|26|15|0
+R|15|0|16|7|Nicholas Latifi|Williams|14|14|0
+R|15|0|17|15|Kimi Räikkönen|Alfa Romeo|4|0|0
+R|15|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|8|0
+R|15|0|19|11|Mick Schumacher|Haas F1 Team|0|19|0
+R|15|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|15|0|21|6|Robert Kubica|Alfa Romeo|0|18|0
+R|15|1|1|108|Mercedes||695|0|6
+R|15|1|2|109|Red Bull||669|0|4
+R|15|1|3|105|Ferrari||363|0|0
+R|15|1|4|107|McLaren||342|0|2
+R|15|1|5|103|Alpine F1 Team||180|0|0
+R|15|1|6|102|AlphaTauri||168|0|0
+R|15|1|7|104|Aston Martin||106|0|0
+R|15|1|8|110|Williams||40|0|0
+R|15|1|9|101|Alfa Romeo||6|0|0
+R|15|1|10|106|Haas F1 Team||0|0|0
+E|16|14|Italian Grand Prix|RACE|16|Daniel Ricciardo
+R|16|0|1|9|Max Verstappen|Red Bull|453|18|0
+R|16|0|2|5|Lewis Hamilton|Mercedes|443|17|0
+R|16|0|3|2|Valtteri Bottas|Mercedes|282|3|30
+R|16|0|4|12|Lando Norris|McLaren|264|2|36
+R|16|0|5|14|Sergio Pérez|Red Bull|236|5|20
+R|16|0|6|8|Charles Leclerc|Ferrari|208|4|24
+R|16|0|7|18|Carlos Sainz|Ferrari|195|6|16
+R|16|0|8|16|Daniel Ricciardo|McLaren|166|1|52
+R|16|0|9|3|Pierre Gasly|AlphaTauri|132|19|0
+R|16|0|10|1|Fernando Alonso|Alpine F1 Team|100|8|8
+R|16|0|11|13|Esteban Ocon|Alpine F1 Team|90|10|2
+R|16|0|12|21|Sebastian Vettel|Aston Martin|70|12|0
+R|16|0|13|19|Lance Stroll|Aston Martin|48|7|12
+R|16|0|14|20|Yuki Tsunoda|AlphaTauri|36|20|0
+R|16|0|15|17|George Russell|Williams|30|9|4
+R|16|0|16|7|Nicholas Latifi|Williams|14|11|0
+R|16|0|17|15|Kimi Räikkönen|Alfa Romeo|4|0|0
+R|16|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|13|0
+R|16|0|19|11|Mick Schumacher|Haas F1 Team|0|15|0
+R|16|0|20|10|Nikita Mazepin|Haas F1 Team|0|16|0
+R|16|0|21|6|Robert Kubica|Alfa Romeo|0|14|0
+R|16|1|1|108|Mercedes||725|0|30
+R|16|1|2|109|Red Bull||689|0|20
+R|16|1|3|107|McLaren||430|0|88
+R|16|1|4|105|Ferrari||403|0|40
+R|16|1|5|103|Alpine F1 Team||190|0|10
+R|16|1|6|102|AlphaTauri||168|0|0
+R|16|1|7|104|Aston Martin||118|0|12
+R|16|1|8|110|Williams||44|0|4
+R|16|1|9|101|Alfa Romeo||6|0|0
+R|16|1|10|106|Haas F1 Team||0|0|0
+E|17|15|Russian Grand Prix|RACE|12|Lando Norris
+R|17|0|1|5|Lewis Hamilton|Mercedes|493|1|50
+R|17|0|2|9|Max Verstappen|Red Bull|489|2|36
+R|17|0|3|2|Valtteri Bottas|Mercedes|302|5|20
+R|17|0|4|12|Lando Norris|McLaren|278|7|14
+R|17|0|5|14|Sergio Pérez|Red Bull|240|9|4
+R|17|0|6|18|Carlos Sainz|Ferrari|225|3|30
+R|17|0|7|8|Charles Leclerc|Ferrari|208|15|0
+R|17|0|8|16|Daniel Ricciardo|McLaren|190|4|24
+R|17|0|9|3|Pierre Gasly|AlphaTauri|132|13|0
+R|17|0|10|1|Fernando Alonso|Alpine F1 Team|116|6|16
+R|17|0|11|13|Esteban Ocon|Alpine F1 Team|90|14|0
+R|17|0|12|21|Sebastian Vettel|Aston Martin|70|12|0
+R|17|0|13|19|Lance Stroll|Aston Martin|48|11|0
+R|17|0|14|20|Yuki Tsunoda|AlphaTauri|36|17|0
+R|17|0|15|17|George Russell|Williams|32|10|2
+R|17|0|16|7|Nicholas Latifi|Williams|14|19|0
+R|17|0|17|15|Kimi Räikkönen|Alfa Romeo|12|8|8
+R|17|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|16|0
+R|17|0|19|11|Mick Schumacher|Haas F1 Team|0|20|0
+R|17|0|20|10|Nikita Mazepin|Haas F1 Team|0|18|0
+R|17|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|17|1|1|108|Mercedes||795|0|70
+R|17|1|2|109|Red Bull||729|0|40
+R|17|1|3|107|McLaren||468|0|38
+R|17|1|4|105|Ferrari||433|0|30
+R|17|1|5|103|Alpine F1 Team||206|0|16
+R|17|1|6|102|AlphaTauri||168|0|0
+R|17|1|7|104|Aston Martin||118|0|0
+R|17|1|8|110|Williams||46|0|2
+R|17|1|9|101|Alfa Romeo||14|0|8
+R|17|1|10|106|Haas F1 Team||0|0|0
+E|18|16|Turkish Grand Prix|RACE|2|Valtteri Bottas
+R|18|0|1|9|Max Verstappen|Red Bull|525|2|36
+R|18|0|2|5|Lewis Hamilton|Mercedes|513|5|20
+R|18|0|3|2|Valtteri Bottas|Mercedes|354|1|52
+R|18|0|4|12|Lando Norris|McLaren|290|7|12
+R|18|0|5|14|Sergio Pérez|Red Bull|270|3|30
+R|18|0|6|18|Carlos Sainz|Ferrari|233|8|8
+R|18|0|7|8|Charles Leclerc|Ferrari|232|4|24
+R|18|0|8|16|Daniel Ricciardo|McLaren|190|13|0
+R|18|0|9|3|Pierre Gasly|AlphaTauri|148|6|16
+R|18|0|10|1|Fernando Alonso|Alpine F1 Team|116|16|0
+R|18|0|11|13|Esteban Ocon|Alpine F1 Team|92|10|2
+R|18|0|12|21|Sebastian Vettel|Aston Martin|70|18|0
+R|18|0|13|19|Lance Stroll|Aston Martin|52|9|4
+R|18|0|14|20|Yuki Tsunoda|AlphaTauri|36|14|0
+R|18|0|15|17|George Russell|Williams|32|15|0
+R|18|0|16|7|Nicholas Latifi|Williams|14|17|0
+R|18|0|17|15|Kimi Räikkönen|Alfa Romeo|12|12|0
+R|18|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|11|0
+R|18|0|19|11|Mick Schumacher|Haas F1 Team|0|19|0
+R|18|0|20|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|18|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|18|1|1|108|Mercedes||867|0|72
+R|18|1|2|109|Red Bull||795|0|66
+R|18|1|3|107|McLaren||480|0|12
+R|18|1|4|105|Ferrari||465|0|32
+R|18|1|5|103|Alpine F1 Team||208|0|2
+R|18|1|6|102|AlphaTauri||184|0|16
+R|18|1|7|104|Aston Martin||122|0|4
+R|18|1|8|110|Williams||46|0|0
+R|18|1|9|101|Alfa Romeo||14|0|0
+R|18|1|10|106|Haas F1 Team||0|0|0
+E|19|17|United States Grand Prix|RACE|5|Lewis Hamilton
+R|19|0|1|9|Max Verstappen|Red Bull|575|1|50
+R|19|0|2|5|Lewis Hamilton|Mercedes|551|2|38
+R|19|0|3|2|Valtteri Bottas|Mercedes|370|6|16
+R|19|0|4|14|Sergio Pérez|Red Bull|300|3|30
+R|19|0|5|12|Lando Norris|McLaren|298|8|8
+R|19|0|6|8|Charles Leclerc|Ferrari|256|4|24
+R|19|0|7|18|Carlos Sainz|Ferrari|245|7|12
+R|19|0|8|16|Daniel Ricciardo|McLaren|210|5|20
+R|19|0|9|3|Pierre Gasly|AlphaTauri|148|20|0
+R|19|0|10|1|Fernando Alonso|Alpine F1 Team|116|18|0
+R|19|0|11|13|Esteban Ocon|Alpine F1 Team|92|19|0
+R|19|0|12|21|Sebastian Vettel|Aston Martin|72|10|2
+R|19|0|13|19|Lance Stroll|Aston Martin|52|12|0
+R|19|0|14|20|Yuki Tsunoda|AlphaTauri|40|9|4
+R|19|0|15|17|George Russell|Williams|32|14|0
+R|19|0|16|7|Nicholas Latifi|Williams|14|15|0
+R|19|0|17|15|Kimi Räikkönen|Alfa Romeo|12|13|0
+R|19|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|11|0
+R|19|0|19|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|19|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|19|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|19|1|1|108|Mercedes||921|0|54
+R|19|1|2|109|Red Bull||875|0|80
+R|19|1|3|107|McLaren||508|0|28
+R|19|1|4|105|Ferrari||501|0|36
+R|19|1|5|103|Alpine F1 Team||208|0|0
+R|19|1|6|102|AlphaTauri||188|0|4
+R|19|1|7|104|Aston Martin||124|0|2
+R|19|1|8|110|Williams||46|0|0
+R|19|1|9|101|Alfa Romeo||14|0|0
+R|19|1|10|106|Haas F1 Team||0|0|0
+E|20|18|Mexico City Grand Prix|RACE|0|
+R|20|0|1|9|Max Verstappen|Red Bull|625|1|50
+R|20|0|2|5|Lewis Hamilton|Mercedes|587|2|36
+R|20|0|3|2|Valtteri Bottas|Mercedes|370|15|0
+R|20|0|4|14|Sergio Pérez|Red Bull|330|3|30
+R|20|0|5|12|Lando Norris|McLaren|300|10|2
+R|20|0|6|8|Charles Leclerc|Ferrari|276|5|20
+R|20|0|7|18|Carlos Sainz|Ferrari|261|6|16
+R|20|0|8|16|Daniel Ricciardo|McLaren|210|12|0
+R|20|0|9|3|Pierre Gasly|AlphaTauri|172|4|24
+R|20|0|10|1|Fernando Alonso|Alpine F1 Team|120|9|4
+R|20|0|11|13|Esteban Ocon|Alpine F1 Team|92|13|0
+R|20|0|12|21|Sebastian Vettel|Aston Martin|84|7|12
+R|20|0|13|19|Lance Stroll|Aston Martin|52|14|0
+R|20|0|14|20|Yuki Tsunoda|AlphaTauri|40|20|0
+R|20|0|15|17|George Russell|Williams|32|16|0
+R|20|0|16|15|Kimi Räikkönen|Alfa Romeo|20|8|8
+R|20|0|17|7|Nicholas Latifi|Williams|14|17|0
+R|20|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|11|0
+R|20|0|19|11|Mick Schumacher|Haas F1 Team|0|19|0
+R|20|0|20|10|Nikita Mazepin|Haas F1 Team|0|18|0
+R|20|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|20|1|1|108|Mercedes||957|0|36
+R|20|1|2|109|Red Bull||955|0|80
+R|20|1|3|105|Ferrari||537|0|36
+R|20|1|4|107|McLaren||510|0|2
+R|20|1|5|103|Alpine F1 Team||212|0|4
+R|20|1|6|102|AlphaTauri||212|0|24
+R|20|1|7|104|Aston Martin||136|0|12
+R|20|1|8|110|Williams||46|0|0
+R|20|1|9|101|Alfa Romeo||22|0|8
+R|20|1|10|106|Haas F1 Team||0|0|0
+E|21|19|São Paulo Grand Prix|SPRINT|0|
+R|21|0|1|9|Max Verstappen|Red Bull|629|2|4
+R|21|0|2|5|Lewis Hamilton|Mercedes|587|5|0
+R|21|0|3|2|Valtteri Bottas|Mercedes|376|1|6
+R|21|0|4|14|Sergio Pérez|Red Bull|330|4|0
+R|21|0|5|12|Lando Norris|McLaren|300|6|0
+R|21|0|6|8|Charles Leclerc|Ferrari|276|7|0
+R|21|0|7|18|Carlos Sainz|Ferrari|263|3|2
+R|21|0|8|16|Daniel Ricciardo|McLaren|210|11|0
+R|21|0|9|3|Pierre Gasly|AlphaTauri|172|8|0
+R|21|0|10|1|Fernando Alonso|Alpine F1 Team|120|12|0
+R|21|0|11|13|Esteban Ocon|Alpine F1 Team|92|9|0
+R|21|0|12|21|Sebastian Vettel|Aston Martin|84|10|0
+R|21|0|13|19|Lance Stroll|Aston Martin|52|14|0
+R|21|0|14|20|Yuki Tsunoda|AlphaTauri|40|15|0
+R|21|0|15|17|George Russell|Williams|32|17|0
+R|21|0|16|15|Kimi Räikkönen|Alfa Romeo|20|18|0
+R|21|0|17|7|Nicholas Latifi|Williams|14|16|0
+R|21|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|13|0
+R|21|0|19|11|Mick Schumacher|Haas F1 Team|0|19|0
+R|21|0|20|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|21|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|21|1|1|108|Mercedes||963|0|6
+R|21|1|2|109|Red Bull||959|0|4
+R|21|1|3|105|Ferrari||539|0|2
+R|21|1|4|107|McLaren||510|0|0
+R|21|1|5|103|Alpine F1 Team||212|0|0
+R|21|1|6|102|AlphaTauri||212|0|0
+R|21|1|7|104|Aston Martin||136|0|0
+R|21|1|8|110|Williams||46|0|0
+R|21|1|9|101|Alfa Romeo||22|0|0
+R|21|1|10|106|Haas F1 Team||0|0|0
+E|22|19|São Paulo Grand Prix|RACE|14|Sergio Pérez
+R|22|0|1|9|Max Verstappen|Red Bull|665|2|36
+R|22|0|2|5|Lewis Hamilton|Mercedes|637|1|50
+R|22|0|3|2|Valtteri Bottas|Mercedes|406|3|30
+R|22|0|4|14|Sergio Pérez|Red Bull|356|4|26
+R|22|0|5|12|Lando Norris|McLaren|302|10|2
+R|22|0|6|8|Charles Leclerc|Ferrari|296|5|20
+R|22|0|7|18|Carlos Sainz|Ferrari|279|6|16
+R|22|0|8|16|Daniel Ricciardo|McLaren|210|19|0
+R|22|0|9|3|Pierre Gasly|AlphaTauri|184|7|12
+R|22|0|10|1|Fernando Alonso|Alpine F1 Team|124|9|4
+R|22|0|11|13|Esteban Ocon|Alpine F1 Team|100|8|8
+R|22|0|12|21|Sebastian Vettel|Aston Martin|84|11|0
+R|22|0|13|19|Lance Stroll|Aston Martin|52|20|0
+R|22|0|14|20|Yuki Tsunoda|AlphaTauri|40|15|0
+R|22|0|15|17|George Russell|Williams|32|13|0
+R|22|0|16|15|Kimi Räikkönen|Alfa Romeo|20|12|0
+R|22|0|17|7|Nicholas Latifi|Williams|14|16|0
+R|22|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|14|0
+R|22|0|19|11|Mick Schumacher|Haas F1 Team|0|18|0
+R|22|0|20|10|Nikita Mazepin|Haas F1 Team|0|17|0
+R|22|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|22|1|1|108|Mercedes||1043|0|80
+R|22|1|2|109|Red Bull||1021|0|62
+R|22|1|3|105|Ferrari||575|0|36
+R|22|1|4|107|McLaren||512|0|2
+R|22|1|5|103|Alpine F1 Team||224|0|12
+R|22|1|6|102|AlphaTauri||224|0|12
+R|22|1|7|104|Aston Martin||136|0|0
+R|22|1|8|110|Williams||46|0|0
+R|22|1|9|101|Alfa Romeo||22|0|0
+R|22|1|10|106|Haas F1 Team||0|0|0
+E|23|20|Qatar Grand Prix|RACE|9|Max Verstappen
+R|23|0|1|9|Max Verstappen|Red Bull|703|2|38
+R|23|0|2|5|Lewis Hamilton|Mercedes|687|1|50
+R|23|0|3|2|Valtteri Bottas|Mercedes|406|20|0
+R|23|0|4|14|Sergio Pérez|Red Bull|380|4|24
+R|23|0|5|12|Lando Norris|McLaren|306|9|4
+R|23|0|6|8|Charles Leclerc|Ferrari|304|8|8
+R|23|0|7|18|Carlos Sainz|Ferrari|291|7|12
+R|23|0|8|16|Daniel Ricciardo|McLaren|210|12|0
+R|23|0|9|3|Pierre Gasly|AlphaTauri|184|11|0
+R|23|0|10|1|Fernando Alonso|Alpine F1 Team|154|3|30
+R|23|0|11|13|Esteban Ocon|Alpine F1 Team|120|5|20
+R|23|0|12|21|Sebastian Vettel|Aston Martin|86|10|2
+R|23|0|13|19|Lance Stroll|Aston Martin|68|6|16
+R|23|0|14|20|Yuki Tsunoda|AlphaTauri|40|13|0
+R|23|0|15|17|George Russell|Williams|32|17|0
+R|23|0|16|15|Kimi Räikkönen|Alfa Romeo|20|14|0
+R|23|0|17|7|Nicholas Latifi|Williams|14|19|0
+R|23|0|18|4|Antonio Giovinazzi|Alfa Romeo|2|15|0
+R|23|0|19|11|Mick Schumacher|Haas F1 Team|0|16|0
+R|23|0|20|10|Nikita Mazepin|Haas F1 Team|0|18|0
+R|23|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|23|1|1|108|Mercedes||1093|0|50
+R|23|1|2|109|Red Bull||1083|0|62
+R|23|1|3|105|Ferrari||595|0|20
+R|23|1|4|107|McLaren||516|0|4
+R|23|1|5|103|Alpine F1 Team||274|0|50
+R|23|1|6|102|AlphaTauri||224|0|0
+R|23|1|7|104|Aston Martin||154|0|18
+R|23|1|8|110|Williams||46|0|0
+R|23|1|9|101|Alfa Romeo||22|0|0
+R|23|1|10|106|Haas F1 Team||0|0|0
+E|24|21|Saudi Arabian Grand Prix|RACE|5|Lewis Hamilton
+R|24|0|1|9|Max Verstappen|Red Bull|739|2|36
+R|24|0|2|5|Lewis Hamilton|Mercedes|739|1|52
+R|24|0|3|2|Valtteri Bottas|Mercedes|436|3|30
+R|24|0|4|14|Sergio Pérez|Red Bull|380|17|0
+R|24|0|5|8|Charles Leclerc|Ferrari|316|7|12
+R|24|0|6|12|Lando Norris|McLaren|308|10|2
+R|24|0|7|18|Carlos Sainz|Ferrari|299|8|8
+R|24|0|8|16|Daniel Ricciardo|McLaren|230|5|20
+R|24|0|9|3|Pierre Gasly|AlphaTauri|200|6|16
+R|24|0|10|1|Fernando Alonso|Alpine F1 Team|154|13|0
+R|24|0|11|13|Esteban Ocon|Alpine F1 Team|144|4|24
+R|24|0|12|21|Sebastian Vettel|Aston Martin|86|16|0
+R|24|0|13|19|Lance Stroll|Aston Martin|68|11|0
+R|24|0|14|20|Yuki Tsunoda|AlphaTauri|40|14|0
+R|24|0|15|17|George Russell|Williams|32|19|0
+R|24|0|16|15|Kimi Räikkönen|Alfa Romeo|20|15|0
+R|24|0|17|7|Nicholas Latifi|Williams|14|12|0
+R|24|0|18|4|Antonio Giovinazzi|Alfa Romeo|6|9|4
+R|24|0|19|11|Mick Schumacher|Haas F1 Team|0|20|0
+R|24|0|20|10|Nikita Mazepin|Haas F1 Team|0|18|0
+R|24|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|24|1|1|108|Mercedes||1175|0|82
+R|24|1|2|109|Red Bull||1119|0|36
+R|24|1|3|105|Ferrari||615|0|20
+R|24|1|4|107|McLaren||538|0|22
+R|24|1|5|103|Alpine F1 Team||298|0|24
+R|24|1|6|102|AlphaTauri||240|0|16
+R|24|1|7|104|Aston Martin||154|0|0
+R|24|1|8|110|Williams||46|0|0
+R|24|1|9|101|Alfa Romeo||26|0|4
+R|24|1|10|106|Haas F1 Team||0|0|0
+E|25|22|Abu Dhabi Grand Prix|RACE|9|Max Verstappen
+R|25|0|1|9|Max Verstappen|Red Bull|791|1|52
+R|25|0|2|5|Lewis Hamilton|Mercedes|775|2|36
+R|25|0|3|2|Valtteri Bottas|Mercedes|452|6|16
+R|25|0|4|14|Sergio Pérez|Red Bull|380|15|0
+R|25|0|5|18|Carlos Sainz|Ferrari|329|3|30
+R|25|0|6|12|Lando Norris|McLaren|320|7|12
+R|25|0|7|8|Charles Leclerc|Ferrari|318|10|2
+R|25|0|8|16|Daniel Ricciardo|McLaren|230|12|0
+R|25|0|9|3|Pierre Gasly|AlphaTauri|220|5|20
+R|25|0|10|1|Fernando Alonso|Alpine F1 Team|162|8|8
+R|25|0|11|13|Esteban Ocon|Alpine F1 Team|148|9|4
+R|25|0|12|21|Sebastian Vettel|Aston Martin|86|11|0
+R|25|0|13|19|Lance Stroll|Aston Martin|68|13|0
+R|25|0|14|20|Yuki Tsunoda|AlphaTauri|64|4|24
+R|25|0|15|17|George Russell|Williams|32|18|0
+R|25|0|16|15|Kimi Räikkönen|Alfa Romeo|20|19|0
+R|25|0|17|7|Nicholas Latifi|Williams|14|16|0
+R|25|0|18|4|Antonio Giovinazzi|Alfa Romeo|6|17|0
+R|25|0|19|11|Mick Schumacher|Haas F1 Team|0|14|0
+R|25|0|20|10|Nikita Mazepin|Haas F1 Team|0|20|0
+R|25|0|21|6|Robert Kubica|Alfa Romeo|0|0|0
+R|25|1|1|108|Mercedes||1227|0|52
+R|25|1|2|109|Red Bull||1171|0|52
+R|25|1|3|105|Ferrari||647|0|32
+R|25|1|4|107|McLaren||550|0|12
+R|25|1|5|103|Alpine F1 Team||310|0|12
+R|25|1|6|102|AlphaTauri||284|0|44
+R|25|1|7|104|Aston Martin||154|0|0
+R|25|1|8|110|Williams||46|0|0
+R|25|1|9|101|Alfa Romeo||26|0|0
+R|25|1|10|106|Haas F1 Team||0|0|0

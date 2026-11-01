@@ -1,0 +1,19 @@
+.DS_Store
+**/.bmx/
+/.generics/
+/*.debug.*
+/*.release.*
+
+# Keep examples and replay data; omit local executables and app bundles.
+/examples/*
+!/examples/*.bmx
+!/examples/*.tsv
+!/examples/*.txt
+!/examples/*.json
+!/examples/README.md
+/examples/.bmx/
+
+# Test runs produce binaries, coverage, and round-trip files.
+/tests/*
+!/tests/*.bmx
+/tests/.bmx/
